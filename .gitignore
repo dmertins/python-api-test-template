@@ -1,0 +1,12 @@
+# Byte-compiled
+__pycache__/
+
+# Environments
+.venv
+
+# pytest
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
