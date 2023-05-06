@@ -1,0 +1,16 @@
+#
+# This file should contain only development primary dependencies.
+# The .txt file containing the full list of dependencies is generated with pip-compile.
+#
+
+# Production requirements constraints
+-c production.txt
+
+# Development requirements
+black==23.3.0
+flake8==6.0.0
+flake8-bugbear==23.3.23
+Flake8-pyproject==1.2.3
+isort==5.12.0
+pip-tools==6.13.0
+pre-commit==3.3.1
