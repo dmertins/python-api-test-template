@@ -52,6 +52,20 @@ To update project dependencies:
     ```
 4. Commit changes in all requirements files.
 
+### Forcing Requirements Update
+If `pip-compile` finds an existing requirements `.txt` that already fulfills the dependencies specified in `.in` files, then no changes will be made, even if package updates are available.
+
+To force `pip-compile` to update all packages in a requirements file, run the command with the `--upgrade` flag:
+```shell
+$ pip-compile --upgrade requirements/production.in
+$ pip-compile --upgrade requirements/development.in
+```
+
+### Synchronizing the Virtual Environment
+```shell
+$ pip-sync requirements/production.txt requirements/development.txt
+```
+
 ## TODO
 - [ ] Add Table of Contents
 - [ ] List template features
