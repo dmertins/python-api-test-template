@@ -3,5 +3,5 @@
 # The .txt file containing the full list of dependencies is generated with pip-compile.
 #
 jsonschema==4.17.3
-pytest==7.3.1
-requests==2.30.0
+pytest==7.4.0
+requests==2.31.0
