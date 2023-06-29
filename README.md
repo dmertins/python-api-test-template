@@ -3,6 +3,9 @@
 ## Project Requirements
 - Python 3.11
 
+## Python Setup
+It's a good practice to use a version management tool, such as [pyenv](https://github.com/pyenv/pyenv), to install Python, as this way it's easy to switch between different versions of Python.
+
 ## Project Setup for Development
 1. Create a virtual environment:
    ```shell
